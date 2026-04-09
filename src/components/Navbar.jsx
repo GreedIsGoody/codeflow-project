@@ -29,10 +29,10 @@ export default function Navbar() {
                         <a href="#testimonials" className='text-gray-300 hover:text-white text-sm lg:text-base'>Testimonials</a>
                     </div>
 
-                    <button className='md:hidden p-2 text-gray-300 hover:text-white' 
-                    onClick={() => setMobileMenuIsOpen((prev) => !prev)}>
-                        {mobileMenuIsOpen ? (<X className='w-5 h-5 sm:w-6 sm:h-6'/>) : (
-                            <Menu className='w-5 h-5 sm:w-6 sm:h-6'/>
+                    <button className='md:hidden p-2 text-gray-300 hover:text-white'
+                        onClick={() => setMobileMenuIsOpen((prev) => !prev)}>
+                        {mobileMenuIsOpen ? (<X className='w-5 h-5 sm:w-6 sm:h-6' />) : (
+                            <Menu className='w-5 h-5 sm:w-6 sm:h-6' />
                         )}
                     </button>
                 </div>
